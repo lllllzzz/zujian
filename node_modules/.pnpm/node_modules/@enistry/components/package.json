@@ -1,0 +1,15 @@
+{
+  "name": "@enistry/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-dts": "1.4.1"
+  }
+}

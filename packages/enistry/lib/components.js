@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("./components2.js"),u=require("./components3.js"),i={install:t=>{for(let n in e)t.use(e[n])}};exports.Button=u.Button;exports.default=i;
