@@ -1,29 +1,29 @@
 {
-  "name": "enistrys",
-  "version": "1.0.2",
-  "description": "",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it"
-  },
-  "keywords": [],
-  "author": "zhujiaqing",
-  "license": "MIT",
-  "files": [
-    "es",
-    "lib"
-  ],
-  "sideEffects": [
-    "**/*.css"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lllllzzz/zujian"
-  },
-  "peerDependencies": {
-    "vue": "^3.2.0"
-  },
-  "typings": "lib/index.d.ts"
-}
+    "name": "enistrys",         
+    "version": "1.0.4",          
+    "description": "Vue3组件库",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "typings": "es/index.d.ts",
+    "files": [
+      "es",
+      "lib"
+    ],
+    "keywords": [
+      "enistry",
+      "vue3组件库"
+    ],
+    "author": "zhujiaqing",
+    "license": "MIT",
+    "sideEffects": [
+      "**/*.css",
+      "**/style/*"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lllllzzz/zujian"
+    },
+    "peerDependencies": {
+      "vue": "^3.2.0"
+    }
+  }
