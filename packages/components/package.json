@@ -1,6 +1,6 @@
 {
   "name": "@enistry/components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "../enistry/lib/index.js",
   "module": "../enistry/es/index.js",

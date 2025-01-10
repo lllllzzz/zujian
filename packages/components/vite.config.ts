@@ -24,7 +24,8 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../enistry/es'
+          dir: '../enistry/es',
+          entryFileNames: '[name].js'
         },
         {
           //打包格式
@@ -33,7 +34,8 @@ export default defineConfig({
           preserveModules: true,
           exports: 'named',
           //配置打包根目录
-          dir: '../enistry/lib'
+          dir: '../enistry/lib',
+          entryFileNames: '[name].js'
         }
       ]
     },
