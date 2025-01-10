@@ -4,12 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vite build"
+    "build:components": "vite build",
+    "build": "gulp -f script/build/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-dts": "1.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "@types/gulp": "^4.0.10",
+    "@types/gulp-less": "^3.0.3",
+    "@types/gulp-autoprefixer": "^0.0.33",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0"
   }
 }
