@@ -25,7 +25,7 @@ export default defineConfig({
           exports: 'named',
           //配置打包根目录
           dir: '../enistry/es',
-          entryFileNames: '[name].js'
+          // entryFileNames: '[name].js'
         },
         {
           //打包格式
@@ -35,7 +35,7 @@ export default defineConfig({
           exports: 'named',
           //配置打包根目录
           dir: '../enistry/lib',
-          entryFileNames: '[name].js'
+          // entryFileNames: '[name].js'
         }
       ]
     },
