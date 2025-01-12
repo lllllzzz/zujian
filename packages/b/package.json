@@ -1,15 +1,16 @@
 {
-  "name": "play",
+  "name": "b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "vite"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@enistry/components": "workspace:^"
+    "@enistry/a": "workspace:^"
   }
 }
